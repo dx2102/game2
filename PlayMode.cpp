@@ -460,7 +460,7 @@ void PlayMode::draw(glm::uvec2 const &drawable_size) {
 		};
 		float y = y1 - PAD - 0.08f;
 		text("ROCKET SWEEPER BOT", x0 + PAD, y, 0.07f, BLACK); y -= LINE + 0.01f;
-		const char *rows[][2] = {{"W / S", "FORWARD / BACK"}, {"A / D", "STRAFE"}, {"Q / E", "TURN 90"}, {"SPACE", "HOLD = ROCKET"}, {"M / SHIFT", "HOLD = OPEN GLIDER"}, {"R", "RESPAWN"}};
+		const char *rows[][2] = {{"W / S", "FORWARD / BACK"}, {"A / D", "STRAFE"}, {"Q / E", "TURN LEFT / RIGHT"}, {"SPACE", "HOLD = ROCKET"}, {"M / SHIFT", "HOLD = OPEN GLIDER"}, {"R", "RESPAWN"}};
 		for (int i = 0; i < 6; ++i) {
 			glm::u8vec4 c = (i == 4 && blink) ? glm::u8vec4(0, 0, 0, 40) : BLACK;
 			text(rows[i][0], x0 + PAD, y, H, c);
