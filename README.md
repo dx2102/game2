@@ -2,7 +2,9 @@
 
 Author: Deming Xu
 
-Design: A sweeper robot with a rocket backpack hops across 1x1 pillars. Kinetic energy is the core currency: fold the glider to dive, slam a spring pad, and it hands every bit of that energy back as launch speed.
+Design: 
+A sweeper robot with a rocket backpack hops across pillars. 
+You need to use fuel, green fuel spheres, and springs to generate sufficient kinetic energy.
 
 Screen Shot:
 
