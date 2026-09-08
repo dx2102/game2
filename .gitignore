@@ -1,0 +1,5 @@
+objs/
+dist/game
+dist/game.exe
+maek-cache.json
+.DS_Store
